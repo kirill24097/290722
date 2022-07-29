@@ -34,9 +34,8 @@ public class Main {
         int RawEggsGr =(RawEggs * oneEgg);
         double totalWeight = (BananasGr + milk200 + IceCreamSundaeGr + RawEggsGr);
         System.out.println( "вес коктеля грамм" + totalWeight);
-
-
-
+        double totalWeightKg=(totalWeight / 1000);
+        System.out.println( "вес коктеля кг" +  totalWeightKg);
 
         //4 задание
         int weight =7;
